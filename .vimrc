@@ -8,6 +8,9 @@ set softtabstop=2
 set swapfile
 set directory=/home/kazuma/tmp/
 set splitright
+set exrc
+set secure
+"set fileencodings=iso-2022-jp,euc-jp,sjis,utf-8
 
 autocmd Filetype html setlocal ts=2 sts=2 sw=2
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
@@ -60,6 +63,7 @@ NeoBundle 'taichouchou2/html5.vim'
 NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'basyura/unite-rails'
+NeoBundle 'szw/vim-tags'
 
 " My Bundles here:
 " Refer to |:NeoBundle-examples|.
